@@ -65,10 +65,11 @@ p {
 }
 
 .top-container {
-   background-color: #DDE5E9;
+    background-color: #DDE5E9;
     position: relative;
     padding-top: 100px;
     padding-bottom: 100px;
+
 }
 
 .middle-container {
@@ -87,6 +88,8 @@ p {
     text-align: left;
     line-height: 2;
 }
+
+
 
 .frontend-img {
     width: 20%;
@@ -155,3 +158,19 @@ p {
     text-decoration: none;
 
  }
+
+ @media (min-width: 722px) {
+    .propic {
+        height: 30%;
+        float: left;
+        margin-left: 100px;
+        position: relative;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .intro {
+        width: 100%;
+    }
+}
