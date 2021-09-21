@@ -90,7 +90,7 @@ p {
 }
 
 .experience-img {
-    width: 20%;
+    width: 20% !important;
     float: left;
     margin-right: 25px;
 }
